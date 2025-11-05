@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Dò Mìn VIP PRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>💣 DÒ MÌN CỰC KHÓ 💣</h1>
+    
+    <div id="controls">
+        <div class="stat">
+            Mìn: <span id="mines-count"></span>
+        </div>
+        <button id="reset-button">Chơi lại</button>
+        <div class="stat">
+            Thời gian: <span id="timer">0</span>s
+        </div>
+    </div>
+    
+    <div id="board"></div>
+
+    <div id="game-message"></div>
+
+    <div id="win-modal" class="modal">
+        <div class="modal-content">
+            <h2>🎉 CHIẾN THẮNG! 🎉</h2>
+            <p>Bạn đã vượt qua level Cực Khó!</p>
+            <div class="result-time">Thời gian của bạn: <span id="final-time">0</span> giây</div>
+            
+            <div class="modal-actions">
+                <button id="modal-play-again" class="modal-button primary">Chơi Lại</button>
+                <button id="modal-change-level" class="modal-button secondary">Đổi Độ Khó</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
