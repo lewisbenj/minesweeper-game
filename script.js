@@ -251,4 +251,7 @@ modalChangeLevelButton.addEventListener('click', () => {
 });
 
 initGame();
+
 window.addEventListener('resize', initGame);
+
+//uocgicoaylacuatoi =)))
